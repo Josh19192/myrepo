@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63131CAC-35CB-4560-90F8-67EC40FBC202}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BabyVaccineFinalSystem</RootNamespace>
+    <AssemblyName>BabyVaccineFinalSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Installer\MySql.Data\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBaby.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBaby.Designer.cs">
+      <DependentUpon>AddBaby.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInject.Designer.cs">
+      <DependentUpon>AddInject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProfile.Designer.cs">
+      <DependentUpon>EditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs" />
+    <Compile Include="Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VaccineInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VaccineInfo.Designer.cs">
+      <DependentUpon>VaccineInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viewbaby.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewbaby.Designer.cs">
+      <DependentUpon>Viewbaby.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddBaby.resx">
+      <DependentUpon>AddBaby.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInject.resx">
+      <DependentUpon>AddInject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProfile.resx">
+      <DependentUpon>EditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VaccineInfo.resx">
+      <DependentUpon>VaccineInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewbaby.resx">
+      <DependentUpon>Viewbaby.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vaccine_Background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddBabyFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddBabyFinal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddBabyFinal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddBabyFinal12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddBabyFinal123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewBabyFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logIn-icon12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logIn-icon123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logIn-icon1234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthWorkerLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logIn-icon12Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-iconF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddBabyFinal1234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewBabyFinal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logIn-out12Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAckFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12626-20012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editiconsF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editiconsFi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editicons1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\injection1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\injection12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\injection123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addmem1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VacBack.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
