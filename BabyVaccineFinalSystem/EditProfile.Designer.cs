@@ -53,7 +53,7 @@
             this.CbxGender.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.CbxGender.Location = new System.Drawing.Point(352, 321);
+            this.CbxGender.Location = new System.Drawing.Point(330, 321);
             this.CbxGender.Name = "CbxGender";
             this.CbxGender.Size = new System.Drawing.Size(210, 29);
             this.CbxGender.TabIndex = 40;
@@ -63,7 +63,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(255, 325);
+            this.label6.Location = new System.Drawing.Point(233, 325);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 21);
             this.label6.TabIndex = 39;
@@ -74,7 +74,7 @@
             this.DtpBirth.CalendarMonthBackground = System.Drawing.SystemColors.ButtonFace;
             this.DtpBirth.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtpBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DtpBirth.Location = new System.Drawing.Point(352, 368);
+            this.DtpBirth.Location = new System.Drawing.Point(330, 368);
             this.DtpBirth.Name = "DtpBirth";
             this.DtpBirth.Size = new System.Drawing.Size(132, 28);
             this.DtpBirth.TabIndex = 37;
@@ -84,7 +84,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(233, 373);
+            this.label5.Location = new System.Drawing.Point(211, 373);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 21);
             this.label5.TabIndex = 36;
@@ -95,7 +95,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(228, 270);
+            this.label4.Location = new System.Drawing.Point(206, 270);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 21);
             this.label4.TabIndex = 35;
@@ -105,7 +105,7 @@
             // 
             this.TbxLastName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbxLastName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbxLastName.Location = new System.Drawing.Point(352, 267);
+            this.TbxLastName.Location = new System.Drawing.Point(330, 267);
             this.TbxLastName.Name = "TbxLastName";
             this.TbxLastName.Size = new System.Drawing.Size(285, 28);
             this.TbxLastName.TabIndex = 34;
@@ -115,7 +115,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(217, 218);
+            this.label2.Location = new System.Drawing.Point(195, 218);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 21);
             this.label2.TabIndex = 33;
@@ -125,7 +125,7 @@
             // 
             this.TbxMidName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbxMidName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbxMidName.Location = new System.Drawing.Point(352, 215);
+            this.TbxMidName.Location = new System.Drawing.Point(330, 215);
             this.TbxMidName.Name = "TbxMidName";
             this.TbxMidName.Size = new System.Drawing.Size(285, 28);
             this.TbxMidName.TabIndex = 32;
@@ -135,7 +135,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(250, 116);
+            this.label3.Location = new System.Drawing.Point(228, 116);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 21);
             this.label3.TabIndex = 31;
@@ -146,7 +146,7 @@
             this.LblID.AutoSize = true;
             this.LblID.BackColor = System.Drawing.Color.Transparent;
             this.LblID.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblID.Location = new System.Drawing.Point(347, 112);
+            this.LblID.Location = new System.Drawing.Point(325, 112);
             this.LblID.Name = "LblID";
             this.LblID.Size = new System.Drawing.Size(25, 24);
             this.LblID.TabIndex = 30;
@@ -157,7 +157,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(266, 167);
+            this.label1.Location = new System.Drawing.Point(244, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 21);
             this.label1.TabIndex = 29;
@@ -167,7 +167,7 @@
             // 
             this.TbxFirstName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbxFirstName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbxFirstName.Location = new System.Drawing.Point(352, 164);
+            this.TbxFirstName.Location = new System.Drawing.Point(330, 164);
             this.TbxFirstName.Name = "TbxFirstName";
             this.TbxFirstName.Size = new System.Drawing.Size(285, 28);
             this.TbxFirstName.TabIndex = 28;
@@ -181,7 +181,7 @@
             this.BtnBack.ForeColor = System.Drawing.Color.White;
             this.BtnBack.Image = global::BabyVaccineFinalSystem.Properties.Resources.DeleteIcon2;
             this.BtnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBack.Location = new System.Drawing.Point(490, 471);
+            this.BtnBack.Location = new System.Drawing.Point(468, 471);
             this.BtnBack.Name = "BtnBack";
             this.BtnBack.Size = new System.Drawing.Size(189, 46);
             this.BtnBack.TabIndex = 42;
@@ -215,7 +215,7 @@
             this.BtnUpdate.ForeColor = System.Drawing.Color.White;
             this.BtnUpdate.Image = global::BabyVaccineFinalSystem.Properties.Resources.Save;
             this.BtnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnUpdate.Location = new System.Drawing.Point(242, 471);
+            this.BtnUpdate.Location = new System.Drawing.Point(220, 471);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(197, 46);
             this.BtnUpdate.TabIndex = 38;
