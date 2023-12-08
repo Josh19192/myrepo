@@ -66,13 +66,17 @@ namespace BabyVaccineFinalSystem
 
         private void CkbSeePass_CheckedChanged(object sender, EventArgs e)
         {
-            if (CkbSeePass.Checked)
+            if (TbxPass.Text == "Password") { }
+            else if (CkbSeePass.Checked)
             {
                 TbxPass.UseSystemPasswordChar = false;
+                CkbSeePass.Image = Properties.Resources.Unsee2;
+               
             }
-            else 
+            else
             {
                 TbxPass.UseSystemPasswordChar = true;
+                CkbSeePass.Image = Properties.Resources.seepass22;
             }
         }
 
@@ -105,6 +109,16 @@ namespace BabyVaccineFinalSystem
 
         private void TbxPass_MouseClick(object sender, MouseEventArgs e)
         {
+            
+        }
+
+        private void TbxPass_MouseLeave(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void TbxPass_MouseClick_1(object sender, MouseEventArgs e)
+        {
             if (TbxPass.Text != "Password")
             {
             }
@@ -116,7 +130,7 @@ namespace BabyVaccineFinalSystem
             }
         }
 
-        private void TbxPass_MouseLeave(object sender, EventArgs e)
+        private void TbxPass_MouseLeave_1(object sender, EventArgs e)
         {
             if (TbxPass.Text == "")
             {
@@ -124,6 +138,10 @@ namespace BabyVaccineFinalSystem
                 TbxPass.Text = "Password";
                 TbxPass.UseSystemPasswordChar = false;
             }
+        }
+
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
         }
     }
 }

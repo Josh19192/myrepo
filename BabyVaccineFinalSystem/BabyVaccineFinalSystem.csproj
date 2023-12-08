@@ -235,6 +235,27 @@
   <ItemGroup>
     <None Include="Resources\VacBack.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seepass1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unsee2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seepass2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seepass22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babyVac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babyVac1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babyVac123.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

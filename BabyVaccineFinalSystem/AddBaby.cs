@@ -43,7 +43,7 @@ namespace BabyVaccineFinalSystem
                 MySqlCommand cmd2 = new MySqlCommand("CREATE TABLE Baby_" + id + " (vac_no INT PRIMARY KEY, vac_name VARCHAR(100) NOT NULL, dose INT NOT NULL, Dose_1_date_injected Varchar(50) not null, Dose_2_date_injected Varchar(50) not null, Dose_3_date_injected Varchar(50) not null);", Info.cnn);
                 cmd1.ExecuteNonQuery();
                 cmd2.ExecuteNonQuery();
-                MessageBox.Show("Success");
+                MessageBox.Show("Successfully saved");
                 Info.cnn.Close();
                 Viewbaby vb = new Viewbaby();
                 this.Hide();
