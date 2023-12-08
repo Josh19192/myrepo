@@ -110,7 +110,7 @@
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(381, 86);
+            this.label26.Location = new System.Drawing.Point(204, 89);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(91, 29);
             this.label26.TabIndex = 187;
@@ -122,7 +122,7 @@
             this.LblName.BackColor = System.Drawing.Color.Transparent;
             this.LblName.Font = new System.Drawing.Font("Tahoma", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblName.ForeColor = System.Drawing.Color.Black;
-            this.LblName.Location = new System.Drawing.Point(482, 76);
+            this.LblName.Location = new System.Drawing.Point(305, 79);
             this.LblName.Name = "LblName";
             this.LblName.Size = new System.Drawing.Size(97, 40);
             this.LblName.TabIndex = 184;
@@ -134,7 +134,7 @@
             this.label28.BackColor = System.Drawing.Color.Transparent;
             this.label28.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(381, 28);
+            this.label28.Location = new System.Drawing.Point(204, 31);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(95, 29);
             this.label28.TabIndex = 185;
@@ -146,7 +146,7 @@
             this.LblID.BackColor = System.Drawing.Color.Transparent;
             this.LblID.Font = new System.Drawing.Font("Tahoma", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblID.ForeColor = System.Drawing.Color.Black;
-            this.LblID.Location = new System.Drawing.Point(482, 20);
+            this.LblID.Location = new System.Drawing.Point(305, 23);
             this.LblID.Name = "LblID";
             this.LblID.Size = new System.Drawing.Size(41, 40);
             this.LblID.TabIndex = 186;
@@ -1030,14 +1030,14 @@
             // 
             // Btnsave
             // 
-            this.Btnsave.BackColor = System.Drawing.Color.LightBlue;
+            this.Btnsave.BackColor = System.Drawing.Color.DarkCyan;
             this.Btnsave.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Btnsave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btnsave.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnsave.ForeColor = System.Drawing.Color.White;
             this.Btnsave.Image = global::BabyVaccineFinalSystem.Properties.Resources.Save;
             this.Btnsave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btnsave.Location = new System.Drawing.Point(537, 711);
+            this.Btnsave.Location = new System.Drawing.Point(546, 711);
             this.Btnsave.Name = "Btnsave";
             this.Btnsave.Size = new System.Drawing.Size(240, 45);
             this.Btnsave.TabIndex = 115;
@@ -1047,7 +1047,7 @@
             // 
             // BtnBack
             // 
-            this.BtnBack.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnBack.BackColor = System.Drawing.Color.SlateGray;
             this.BtnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

@@ -719,7 +719,7 @@
             // 
             // BtnBack
             // 
-            this.BtnBack.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnBack.BackColor = System.Drawing.Color.SlateGray;
             this.BtnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

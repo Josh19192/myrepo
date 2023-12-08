@@ -42,9 +42,19 @@ namespace BabyVaccineFinalSystem
 
         private void lOGOUTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UserLogin ul = new UserLogin();
-            this.Hide();
-            ul.Show();
+            DialogResult result = MessageBox.Show("Confirm Log-out? ", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                UserLogin ul = new UserLogin();
+                this.Hide();
+                ul.Show();
+            }
+            else
+            {
+
+            }
+
+           
         }
 
         private void vACCINEINFOToolStripMenuItem_Click(object sender, EventArgs e)

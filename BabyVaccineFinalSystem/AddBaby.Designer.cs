@@ -46,7 +46,7 @@
             // 
             // BtnBack
             // 
-            this.BtnBack.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnBack.BackColor = System.Drawing.Color.SlateGray;
             this.BtnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -88,7 +88,7 @@
             // 
             // BtnSave
             // 
-            this.BtnSave.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnSave.BackColor = System.Drawing.Color.DarkCyan;
             this.BtnSave.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSave.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -97,7 +97,7 @@
             this.BtnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSave.Location = new System.Drawing.Point(345, 427);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(197, 35);
+            this.BtnSave.Size = new System.Drawing.Size(197, 41);
             this.BtnSave.TabIndex = 24;
             this.BtnSave.Text = "SAVE";
             this.BtnSave.UseVisualStyleBackColor = false;

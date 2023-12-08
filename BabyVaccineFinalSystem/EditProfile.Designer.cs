@@ -174,7 +174,7 @@
             // 
             // BtnBack
             // 
-            this.BtnBack.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnBack.BackColor = System.Drawing.Color.IndianRed;
             this.BtnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,7 +191,7 @@
             // 
             // BtnCancel
             // 
-            this.BtnCancel.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnCancel.BackColor = System.Drawing.Color.SlateGray;
             this.BtnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCancel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -208,7 +208,7 @@
             // 
             // BtnUpdate
             // 
-            this.BtnUpdate.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnUpdate.BackColor = System.Drawing.Color.DarkCyan;
             this.BtnUpdate.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnUpdate.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

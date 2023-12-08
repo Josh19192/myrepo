@@ -29,65 +29,31 @@
         private void InitializeComponent()
         {
             this.TbxPass = new System.Windows.Forms.TextBox();
-            this.LblPass = new System.Windows.Forms.Label();
-            this.CbxUser = new System.Windows.Forms.ComboBox();
-            this.LblUser = new System.Windows.Forms.Label();
             this.CkbSeePass = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnLogin = new System.Windows.Forms.Button();
+            this.TbxUser = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // TbxPass
             // 
-            this.TbxPass.Location = new System.Drawing.Point(222, 293);
+            this.TbxPass.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxPass.Location = new System.Drawing.Point(208, 290);
             this.TbxPass.Name = "TbxPass";
-            this.TbxPass.Size = new System.Drawing.Size(209, 22);
+            this.TbxPass.Size = new System.Drawing.Size(209, 28);
             this.TbxPass.TabIndex = 18;
-            this.TbxPass.UseSystemPasswordChar = true;
+            this.TbxPass.Text = "Password";
+            this.TbxPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TbxPass.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TbxPass_MouseClick);
             this.TbxPass.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // LblPass
-            // 
-            this.LblPass.AutoSize = true;
-            this.LblPass.BackColor = System.Drawing.Color.Transparent;
-            this.LblPass.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPass.Location = new System.Drawing.Point(113, 295);
-            this.LblPass.Name = "LblPass";
-            this.LblPass.Size = new System.Drawing.Size(92, 21);
-            this.LblPass.TabIndex = 17;
-            this.LblPass.Text = "Password: ";
-            this.LblPass.Click += new System.EventHandler(this.LblPass_Click);
-            // 
-            // CbxUser
-            // 
-            this.CbxUser.FormattingEnabled = true;
-            this.CbxUser.Items.AddRange(new object[] {
-            "Nurse",
-            "BHW"});
-            this.CbxUser.Location = new System.Drawing.Point(222, 237);
-            this.CbxUser.Name = "CbxUser";
-            this.CbxUser.Size = new System.Drawing.Size(209, 24);
-            this.CbxUser.TabIndex = 16;
-            this.CbxUser.SelectedIndexChanged += new System.EventHandler(this.CbxUser_SelectedIndexChanged);
-            // 
-            // LblUser
-            // 
-            this.LblUser.AutoSize = true;
-            this.LblUser.BackColor = System.Drawing.Color.Transparent;
-            this.LblUser.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblUser.Location = new System.Drawing.Point(155, 241);
-            this.LblUser.Name = "LblUser";
-            this.LblUser.Size = new System.Drawing.Size(55, 21);
-            this.LblUser.TabIndex = 15;
-            this.LblUser.Text = "User: ";
-            this.LblUser.Click += new System.EventHandler(this.LblUser_Click);
+            this.TbxPass.MouseLeave += new System.EventHandler(this.TbxPass_MouseLeave);
             // 
             // CkbSeePass
             // 
             this.CkbSeePass.AutoSize = true;
             this.CkbSeePass.BackColor = System.Drawing.Color.Transparent;
-            this.CkbSeePass.Location = new System.Drawing.Point(222, 321);
+            this.CkbSeePass.Location = new System.Drawing.Point(213, 320);
             this.CkbSeePass.Name = "CkbSeePass";
             this.CkbSeePass.Size = new System.Drawing.Size(55, 21);
             this.CkbSeePass.TabIndex = 22;
@@ -108,7 +74,7 @@
             // 
             // BtnLogin
             // 
-            this.BtnLogin.BackColor = System.Drawing.Color.LightBlue;
+            this.BtnLogin.BackColor = System.Drawing.Color.Turquoise;
             this.BtnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnLogin.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -123,22 +89,33 @@
             this.BtnLogin.UseVisualStyleBackColor = false;
             this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
+            // TbxUser
+            // 
+            this.TbxUser.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbxUser.Location = new System.Drawing.Point(208, 249);
+            this.TbxUser.Name = "TbxUser";
+            this.TbxUser.Size = new System.Drawing.Size(209, 28);
+            this.TbxUser.TabIndex = 23;
+            this.TbxUser.Text = "User";
+            this.TbxUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TbxUser.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TbxUser_MouseClick);
+            this.TbxUser.MouseLeave += new System.EventHandler(this.TbxUser_MouseLeave);
+            // 
             // UserLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(203)))), ((int)(((byte)(215)))));
             this.ClientSize = new System.Drawing.Size(625, 520);
+            this.Controls.Add(this.TbxUser);
             this.Controls.Add(this.CkbSeePass);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.TbxPass);
-            this.Controls.Add(this.LblPass);
-            this.Controls.Add(this.CbxUser);
-            this.Controls.Add(this.LblUser);
             this.Name = "UserLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.UserLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -149,11 +126,9 @@
 
         private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.TextBox TbxPass;
-        private System.Windows.Forms.Label LblPass;
-        private System.Windows.Forms.ComboBox CbxUser;
-        private System.Windows.Forms.Label LblUser;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox CkbSeePass;
+        private System.Windows.Forms.TextBox TbxUser;
     }
 }
 
