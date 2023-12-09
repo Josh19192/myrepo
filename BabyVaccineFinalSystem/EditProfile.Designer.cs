@@ -181,7 +181,7 @@
             this.BtnBack.ForeColor = System.Drawing.Color.White;
             this.BtnBack.Image = global::BabyVaccineFinalSystem.Properties.Resources.DeleteIcon2;
             this.BtnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBack.Location = new System.Drawing.Point(468, 471);
+            this.BtnBack.Location = new System.Drawing.Point(458, 471);
             this.BtnBack.Name = "BtnBack";
             this.BtnBack.Size = new System.Drawing.Size(189, 46);
             this.BtnBack.TabIndex = 42;
@@ -200,7 +200,7 @@
             this.BtnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnCancel.Location = new System.Drawing.Point(5, 7);
             this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(197, 35);
+            this.BtnCancel.Size = new System.Drawing.Size(197, 42);
             this.BtnCancel.TabIndex = 41;
             this.BtnCancel.Text = "CANCEL";
             this.BtnCancel.UseVisualStyleBackColor = false;
@@ -215,7 +215,7 @@
             this.BtnUpdate.ForeColor = System.Drawing.Color.White;
             this.BtnUpdate.Image = global::BabyVaccineFinalSystem.Properties.Resources.Save;
             this.BtnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnUpdate.Location = new System.Drawing.Point(220, 471);
+            this.BtnUpdate.Location = new System.Drawing.Point(210, 471);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(197, 46);
             this.BtnUpdate.TabIndex = 38;

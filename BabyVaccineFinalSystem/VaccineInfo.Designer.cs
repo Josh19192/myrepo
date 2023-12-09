@@ -728,7 +728,7 @@
             this.BtnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBack.Location = new System.Drawing.Point(8, 7);
             this.BtnBack.Name = "BtnBack";
-            this.BtnBack.Size = new System.Drawing.Size(169, 35);
+            this.BtnBack.Size = new System.Drawing.Size(169, 40);
             this.BtnBack.TabIndex = 150;
             this.BtnBack.Text = "BACK";
             this.BtnBack.UseVisualStyleBackColor = false;

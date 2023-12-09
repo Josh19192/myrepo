@@ -343,6 +343,36 @@ namespace BabyVaccineFinalSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LogInLogo {
+            get {
+                object obj = ResourceManager.GetObject("LogInLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pass_iconFinal {
+            get {
+                object obj = ResourceManager.GetObject("pass-iconFinal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password_icon123456 {
+            get {
+                object obj = ResourceManager.GetObject("password-icon123456", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Save {
             get {
                 object obj = ResourceManager.GetObject("Save", resourceCulture);
@@ -396,6 +426,16 @@ namespace BabyVaccineFinalSystem.Properties {
         internal static System.Drawing.Bitmap Unsee2 {
             get {
                 object obj = ResourceManager.GetObject("Unsee2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_icon12345 {
+            get {
+                object obj = ResourceManager.GetObject("user-icon12345", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -133,23 +133,26 @@
   <data name="DeleteIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DeleteIcon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ViewBabyFinal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ViewBabyFinal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pass-iconFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pass-iconFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DeleteIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DeleteIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="injection1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\injection1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="addmem1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addmem1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="injection1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\injection1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="babyVac123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\babyVac123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vaccine_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vaccine_Background.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="editicons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\editicons1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ViewBabyFinal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewBabyFinal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AddBabyFinal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AddBabyFinal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +181,11 @@
   <data name="editiconsFi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editiconsFi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="babyVac1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\babyVac1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LogInLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogInLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logIn-icon12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logIn-icon12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="VacBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VacBack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -189,6 +195,9 @@
   </data>
   <data name="healthWorkerLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\healthWorkerLogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-icon12345" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-icon12345.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="editiconsF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editiconsF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,17 +211,20 @@
   <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AddBabyFinal123" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AddBabyFinal123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="babyVac1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\babyVac1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logIn-icon12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logIn-icon12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="editicons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editicons1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="about-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\about-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Unsee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Unsee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddBabyFinal123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddBabyFinal123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="about-iconF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\about-iconF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,7 +241,7 @@
   <data name="12626-20012" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\12626-20012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="babyVac123" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\babyVac123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="password-icon123456" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password-icon123456.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

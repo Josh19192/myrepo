@@ -42,19 +42,19 @@
             this.LblLogin.AutoSize = true;
             this.LblLogin.BackColor = System.Drawing.Color.Transparent;
             this.LblLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LblLogin.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLogin.Font = new System.Drawing.Font("Cooper Black", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblLogin.ForeColor = System.Drawing.Color.CadetBlue;
             this.LblLogin.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.LblLogin.Location = new System.Drawing.Point(245, 74);
+            this.LblLogin.Location = new System.Drawing.Point(205, 83);
             this.LblLogin.Name = "LblLogin";
-            this.LblLogin.Size = new System.Drawing.Size(649, 96);
+            this.LblLogin.Size = new System.Drawing.Size(756, 100);
             this.LblLogin.TabIndex = 11;
             this.LblLogin.Text = "BABY VACCINE INFORMATION \r\n                     SYSTEM";
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
-            this.menuStrip1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnViewBaby,
             this.aDDBABYToolStripMenuItem,
@@ -73,7 +73,7 @@
             this.btnViewBaby.Image = global::BabyVaccineFinalSystem.Properties.Resources.ViewBabyFinal1;
             this.btnViewBaby.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnViewBaby.Name = "btnViewBaby";
-            this.btnViewBaby.Size = new System.Drawing.Size(171, 34);
+            this.btnViewBaby.Size = new System.Drawing.Size(198, 34);
             this.btnViewBaby.Text = "VIEW BABIES";
             this.btnViewBaby.Click += new System.EventHandler(this.btnViewBaby_Click);
             // 
@@ -83,7 +83,7 @@
             this.aDDBABYToolStripMenuItem.Image = global::BabyVaccineFinalSystem.Properties.Resources.AddBabyFinal1234;
             this.aDDBABYToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.aDDBABYToolStripMenuItem.Name = "aDDBABYToolStripMenuItem";
-            this.aDDBABYToolStripMenuItem.Size = new System.Drawing.Size(146, 34);
+            this.aDDBABYToolStripMenuItem.Size = new System.Drawing.Size(165, 34);
             this.aDDBABYToolStripMenuItem.Text = "ADD BABY";
             this.aDDBABYToolStripMenuItem.Click += new System.EventHandler(this.aDDBABYToolStripMenuItem_Click);
             // 
@@ -93,7 +93,7 @@
             this.vACCINEINFOToolStripMenuItem.Image = global::BabyVaccineFinalSystem.Properties.Resources.about_iconF;
             this.vACCINEINFOToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.vACCINEINFOToolStripMenuItem.Name = "vACCINEINFOToolStripMenuItem";
-            this.vACCINEINFOToolStripMenuItem.Size = new System.Drawing.Size(181, 34);
+            this.vACCINEINFOToolStripMenuItem.Size = new System.Drawing.Size(212, 34);
             this.vACCINEINFOToolStripMenuItem.Text = "VACCINE INFO";
             this.vACCINEINFOToolStripMenuItem.Click += new System.EventHandler(this.vACCINEINFOToolStripMenuItem_Click);
             // 
@@ -103,7 +103,7 @@
             this.lOGOUTToolStripMenuItem.Image = global::BabyVaccineFinalSystem.Properties.Resources.logIn_icon12Final;
             this.lOGOUTToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.lOGOUTToolStripMenuItem.Name = "lOGOUTToolStripMenuItem";
-            this.lOGOUTToolStripMenuItem.Size = new System.Drawing.Size(123, 34);
+            this.lOGOUTToolStripMenuItem.Size = new System.Drawing.Size(142, 34);
             this.lOGOUTToolStripMenuItem.Text = "LOGOUT";
             this.lOGOUTToolStripMenuItem.Click += new System.EventHandler(this.lOGOUTToolStripMenuItem_Click);
             // 

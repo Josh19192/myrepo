@@ -23,7 +23,7 @@ namespace BabyVaccineFinalSystem
             adapter.Fill(dataTable);
             Info.cnn.Open();
             // Bind the DataTable to the DataGridView
-            dataGridView1.DataSource = dataTable;
+            DgvViewBaby.DataSource = dataTable;
             Info.cnn.Close();
         }
         private void Viewbaby_Load(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace BabyVaccineFinalSystem
         {
             try
             {
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM baby_info where id like '%" + TbxSearch.Text + "%' or first_name like '%" + TbxSearch.Text + "%' or last_name like '%" + TbxSearch.Text + "%'", Info.cnn);
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM baby_info where id like '%" + TbxSearch.Text + "%' or first_name like '%" + TbxSearch.Text + "%' or last_name like '%" + TbxSearch.Text + "%' or middle_name like '%" + TbxSearch.Text + "%' or gender like '%" + TbxSearch.Text + "%' or birthdate like '%" +TbxSearch.Text + "%'", Info.cnn);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                 DataTable dataTable = new DataTable();
                 try
@@ -45,7 +45,7 @@ namespace BabyVaccineFinalSystem
                     adapter.Fill(dataTable);
 
                     // Bind the DataTable to the DataGridView
-                    dataGridView1.DataSource = dataTable;
+                    DgvViewBaby.DataSource = dataTable;
                 }
                 catch (Exception ex)
                 {
@@ -71,7 +71,7 @@ namespace BabyVaccineFinalSystem
         {
             if (e.RowIndex >= 0)
             {
-                DataGridViewRow selectRow = dataGridView1.Rows[e.RowIndex];
+                DataGridViewRow selectRow = DgvViewBaby.Rows[e.RowIndex];
                 int id = int.Parse(selectRow.Cells["id"].Value.ToString());
                 string firstName = selectRow.Cells["first_name"].Value.ToString();
                 string midName = selectRow.Cells["middle_name"].Value.ToString();
@@ -98,7 +98,7 @@ namespace BabyVaccineFinalSystem
             {
                 try
                 {
-                    MySqlCommand cmd = new MySqlCommand("SELECT * FROM baby_info where id like '%" + TbxSearch.Text + "%' or first_name like '%" + TbxSearch.Text + "%' or last_name like '%" + TbxSearch.Text + "%'", Info.cnn);
+                    MySqlCommand cmd = new MySqlCommand("SELECT * FROM baby_info where id like '%" + TbxSearch.Text + "%' or first_name like '%" + TbxSearch.Text + "%' or last_name like '%" + TbxSearch.Text + "%' or middle_name like '%" + TbxSearch.Text + "%' or gender like '%" + TbxSearch.Text + "%' or birthdate like '%" + TbxSearch.Text + "%'", Info.cnn);
                     MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                     DataTable dataTable = new DataTable();
                     try
@@ -107,7 +107,7 @@ namespace BabyVaccineFinalSystem
                         adapter.Fill(dataTable);
 
                         // Bind the DataTable to the DataGridView
-                        dataGridView1.DataSource = dataTable;
+                        DgvViewBaby.DataSource = dataTable;
                     }
                     catch (Exception ex)
                     {

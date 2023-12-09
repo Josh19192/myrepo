@@ -33,7 +33,7 @@ namespace BabyVaccineFinalSystem
             adapter.Fill(dataTable);
             Info.cnn.Open();
             // Bind the DataTable to the DataGridView
-            dataGridView1.DataSource = dataTable;
+            DgvInjectInfo.DataSource = dataTable;
             Info.cnn.Close();
         }
         private void BtnEditProfile_Click(object sender, EventArgs e)
@@ -58,14 +58,14 @@ namespace BabyVaccineFinalSystem
 
         private void BtnAddInject_Click(object sender, EventArgs e)
         {
-            object v1 = dataGridView1.Rows[0].Cells[3].Value;
+            object v1 = DgvInjectInfo.Rows[0].Cells[3].Value;
 
-            object v2 = dataGridView1.Rows[2].Cells[3].Value;
-            object v3 = dataGridView1.Rows[2].Cells[4].Value;
-            object v4 = dataGridView1.Rows[2].Cells[5].Value;
+            object v2 = DgvInjectInfo.Rows[2].Cells[3].Value;
+            object v3 = DgvInjectInfo.Rows[2].Cells[4].Value;
+            object v4 = DgvInjectInfo.Rows[2].Cells[5].Value;
 
-            object v5 = dataGridView1.Rows[5].Cells[3].Value;
-            object v6 = dataGridView1.Rows[6].Cells[3].Value;
+            object v5 = DgvInjectInfo.Rows[5].Cells[3].Value;
+            object v6 = DgvInjectInfo.Rows[6].Cells[3].Value;
 
             string w1 = v1.ToString();
             string w2 = v2.ToString();

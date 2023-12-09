@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnBack = new System.Windows.Forms.Button();
             this.CbxGender = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.BtnSave = new System.Windows.Forms.Button();
             this.DtpBirth = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,24 +40,9 @@
             this.LblID = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.TbxFirstName = new System.Windows.Forms.TextBox();
+            this.BtnBack = new System.Windows.Forms.Button();
+            this.BtnSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // BtnBack
-            // 
-            this.BtnBack.BackColor = System.Drawing.Color.SlateGray;
-            this.BtnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBack.ForeColor = System.Drawing.Color.White;
-            this.BtnBack.Image = global::BabyVaccineFinalSystem.Properties.Resources._12626_20012;
-            this.BtnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBack.Location = new System.Drawing.Point(6, 8);
-            this.BtnBack.Name = "BtnBack";
-            this.BtnBack.Size = new System.Drawing.Size(159, 35);
-            this.BtnBack.TabIndex = 27;
-            this.BtnBack.Text = "BACK";
-            this.BtnBack.UseVisualStyleBackColor = false;
-            this.BtnBack.Click += new System.EventHandler(this.button2_Click);
             // 
             // CbxGender
             // 
@@ -85,23 +68,6 @@
             this.label6.Size = new System.Drawing.Size(79, 21);
             this.label6.TabIndex = 25;
             this.label6.Text = "Gender : ";
-            // 
-            // BtnSave
-            // 
-            this.BtnSave.BackColor = System.Drawing.Color.DarkCyan;
-            this.BtnSave.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BtnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSave.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSave.ForeColor = System.Drawing.Color.White;
-            this.BtnSave.Image = global::BabyVaccineFinalSystem.Properties.Resources.Save;
-            this.BtnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnSave.Location = new System.Drawing.Point(345, 427);
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(197, 41);
-            this.BtnSave.TabIndex = 24;
-            this.BtnSave.Text = "SAVE";
-            this.BtnSave.UseVisualStyleBackColor = false;
-            this.BtnSave.Click += new System.EventHandler(this.button1_Click);
             // 
             // DtpBirth
             // 
@@ -209,6 +175,40 @@
             this.TbxFirstName.Name = "TbxFirstName";
             this.TbxFirstName.Size = new System.Drawing.Size(285, 28);
             this.TbxFirstName.TabIndex = 14;
+            // 
+            // BtnBack
+            // 
+            this.BtnBack.BackColor = System.Drawing.Color.SlateGray;
+            this.BtnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBack.ForeColor = System.Drawing.Color.White;
+            this.BtnBack.Image = global::BabyVaccineFinalSystem.Properties.Resources._12626_20012;
+            this.BtnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBack.Location = new System.Drawing.Point(6, 8);
+            this.BtnBack.Name = "BtnBack";
+            this.BtnBack.Size = new System.Drawing.Size(159, 41);
+            this.BtnBack.TabIndex = 27;
+            this.BtnBack.Text = "BACK";
+            this.BtnBack.UseVisualStyleBackColor = false;
+            this.BtnBack.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // BtnSave
+            // 
+            this.BtnSave.BackColor = System.Drawing.Color.DarkCyan;
+            this.BtnSave.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSave.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSave.ForeColor = System.Drawing.Color.White;
+            this.BtnSave.Image = global::BabyVaccineFinalSystem.Properties.Resources.Save;
+            this.BtnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnSave.Location = new System.Drawing.Point(345, 427);
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.Size = new System.Drawing.Size(197, 41);
+            this.BtnSave.TabIndex = 24;
+            this.BtnSave.Text = "SAVE";
+            this.BtnSave.UseVisualStyleBackColor = false;
+            this.BtnSave.Click += new System.EventHandler(this.button1_Click);
             // 
             // AddBaby
             // 

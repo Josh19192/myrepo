@@ -143,5 +143,18 @@ namespace BabyVaccineFinalSystem
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
         }
+
+        private void TbxPass_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void TbxUser_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
