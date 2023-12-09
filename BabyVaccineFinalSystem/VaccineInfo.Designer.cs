@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblLogin = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -78,20 +77,8 @@
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.BtnBack = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // LblLogin
-            // 
-            this.LblLogin.BackColor = System.Drawing.Color.Transparent;
-            this.LblLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LblLogin.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLogin.ForeColor = System.Drawing.Color.CadetBlue;
-            this.LblLogin.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.LblLogin.Location = new System.Drawing.Point(323, 51);
-            this.LblLogin.Name = "LblLogin";
-            this.LblLogin.Size = new System.Drawing.Size(550, 57);
-            this.LblLogin.TabIndex = 12;
-            this.LblLogin.Text = "VACCINE INFORMATION \r\n                   ";
             // 
             // label1
             // 
@@ -734,12 +721,27 @@
             this.BtnBack.UseVisualStyleBackColor = false;
             this.BtnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label25.Font = new System.Drawing.Font("Cooper Black", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.CadetBlue;
+            this.label25.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label25.Location = new System.Drawing.Point(304, 56);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(611, 50);
+            this.label25.TabIndex = 151;
+            this.label25.Text = "VACCINE INFORMATION ";
+            // 
             // VaccineInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(203)))), ((int)(((byte)(215)))));
             this.ClientSize = new System.Drawing.Size(1191, 692);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.BtnBack);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
@@ -765,7 +767,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblLogin);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
@@ -800,7 +801,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LblLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -850,5 +850,6 @@
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button BtnBack;
+        private System.Windows.Forms.Label label25;
     }
 }

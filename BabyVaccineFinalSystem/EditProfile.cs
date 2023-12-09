@@ -36,30 +36,38 @@ namespace BabyVaccineFinalSystem
             }
             else
             {
-                Info.cnn.Open();
-                MySqlCommand cmd1 = new MySqlCommand("Update baby_info set first_name = @Value2, middle_name = @Value3, last_name = @Value4, gender = @Value5, birthdate = @Value6 where ID = @Value1", Info.cnn);
-
-                cmd1.Parameters.AddWithValue("@Value1", int.Parse(LblID.Text));
-                cmd1.Parameters.AddWithValue("@value2", TbxFirstName.Text);
-                cmd1.Parameters.AddWithValue("@value3", TbxMidName.Text);
-                cmd1.Parameters.AddWithValue("@value4", TbxLastName.Text);
-                cmd1.Parameters.AddWithValue("@value5", CbxGender.Text);
-                cmd1.Parameters.AddWithValue("@value6", DtpBirth.Value);
-                try
+                DialogResult result = MessageBox.Show("Are you want sure you want to update this data? ", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
                 {
-                    cmd1.ExecuteNonQuery();
-                    Info.cnn.Close();
-                    MessageBox.Show("Update Successful");
-                    Update up = new Update(int.Parse(LblID.Text), TbxFirstName.Text, TbxMidName.Text, TbxLastName.Text, CbxGender.Text, DtpBirth.Value);
-                    up.Show();
-                    this.Hide();
+                    Info.cnn.Open();
+                    MySqlCommand cmd1 = new MySqlCommand("Update baby_info set first_name = @Value2, middle_name = @Value3, last_name = @Value4, gender = @Value5, birthdate = @Value6 where ID = @Value1", Info.cnn);
 
+                    cmd1.Parameters.AddWithValue("@Value1", int.Parse(LblID.Text));
+                    cmd1.Parameters.AddWithValue("@value2", TbxFirstName.Text);
+                    cmd1.Parameters.AddWithValue("@value3", TbxMidName.Text);
+                    cmd1.Parameters.AddWithValue("@value4", TbxLastName.Text);
+                    cmd1.Parameters.AddWithValue("@value5", CbxGender.Text);
+                    cmd1.Parameters.AddWithValue("@value6", DtpBirth.Value);
+                    try
+                    {
+                        cmd1.ExecuteNonQuery();
+                        Info.cnn.Close();
+                        MessageBox.Show("Update Successful");
+                        Update up = new Update(int.Parse(LblID.Text), TbxFirstName.Text, TbxMidName.Text, TbxLastName.Text, CbxGender.Text, DtpBirth.Value);
+                        up.Show();
+                        this.Hide();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show(ex.Message);
                 }
             }
+            
         }
 
         private void BtnCancel_Click(object sender, EventArgs e)

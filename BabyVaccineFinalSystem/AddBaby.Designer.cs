@@ -42,6 +42,7 @@
             this.TbxFirstName = new System.Windows.Forms.TextBox();
             this.BtnBack = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
+            this.LblLogin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CbxGender
@@ -52,7 +53,7 @@
             this.CbxGender.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.CbxGender.Location = new System.Drawing.Point(304, 301);
+            this.CbxGender.Location = new System.Drawing.Point(304, 332);
             this.CbxGender.Name = "CbxGender";
             this.CbxGender.Size = new System.Drawing.Size(210, 29);
             this.CbxGender.TabIndex = 26;
@@ -63,7 +64,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(207, 305);
+            this.label6.Location = new System.Drawing.Point(207, 336);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 21);
             this.label6.TabIndex = 25;
@@ -73,7 +74,7 @@
             // 
             this.DtpBirth.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DtpBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DtpBirth.Location = new System.Drawing.Point(304, 348);
+            this.DtpBirth.Location = new System.Drawing.Point(304, 379);
             this.DtpBirth.Name = "DtpBirth";
             this.DtpBirth.Size = new System.Drawing.Size(132, 28);
             this.DtpBirth.TabIndex = 23;
@@ -84,7 +85,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(185, 353);
+            this.label5.Location = new System.Drawing.Point(185, 384);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 21);
             this.label5.TabIndex = 22;
@@ -96,7 +97,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(180, 250);
+            this.label4.Location = new System.Drawing.Point(180, 281);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 21);
             this.label4.TabIndex = 21;
@@ -106,7 +107,7 @@
             // 
             this.TbxLastName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbxLastName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbxLastName.Location = new System.Drawing.Point(304, 247);
+            this.TbxLastName.Location = new System.Drawing.Point(304, 278);
             this.TbxLastName.Name = "TbxLastName";
             this.TbxLastName.Size = new System.Drawing.Size(285, 28);
             this.TbxLastName.TabIndex = 20;
@@ -117,7 +118,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(169, 198);
+            this.label2.Location = new System.Drawing.Point(169, 229);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 21);
             this.label2.TabIndex = 19;
@@ -127,7 +128,7 @@
             // 
             this.TbxMidName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbxMidName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbxMidName.Location = new System.Drawing.Point(304, 195);
+            this.TbxMidName.Location = new System.Drawing.Point(304, 226);
             this.TbxMidName.Name = "TbxMidName";
             this.TbxMidName.Size = new System.Drawing.Size(285, 28);
             this.TbxMidName.TabIndex = 18;
@@ -138,7 +139,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(202, 96);
+            this.label3.Location = new System.Drawing.Point(202, 127);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 20);
             this.label3.TabIndex = 17;
@@ -149,7 +150,7 @@
             this.LblID.AutoSize = true;
             this.LblID.BackColor = System.Drawing.Color.Transparent;
             this.LblID.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblID.Location = new System.Drawing.Point(299, 92);
+            this.LblID.Location = new System.Drawing.Point(299, 123);
             this.LblID.Name = "LblID";
             this.LblID.Size = new System.Drawing.Size(25, 24);
             this.LblID.TabIndex = 16;
@@ -161,7 +162,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(218, 147);
+            this.label1.Location = new System.Drawing.Point(218, 178);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 21);
             this.label1.TabIndex = 15;
@@ -171,7 +172,7 @@
             // 
             this.TbxFirstName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.TbxFirstName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TbxFirstName.Location = new System.Drawing.Point(304, 144);
+            this.TbxFirstName.Location = new System.Drawing.Point(304, 175);
             this.TbxFirstName.Name = "TbxFirstName";
             this.TbxFirstName.Size = new System.Drawing.Size(285, 28);
             this.TbxFirstName.TabIndex = 14;
@@ -202,7 +203,7 @@
             this.BtnSave.ForeColor = System.Drawing.Color.White;
             this.BtnSave.Image = global::BabyVaccineFinalSystem.Properties.Resources.Save;
             this.BtnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnSave.Location = new System.Drawing.Point(345, 427);
+            this.BtnSave.Location = new System.Drawing.Point(345, 458);
             this.BtnSave.Name = "BtnSave";
             this.BtnSave.Size = new System.Drawing.Size(197, 41);
             this.BtnSave.TabIndex = 24;
@@ -210,12 +211,27 @@
             this.BtnSave.UseVisualStyleBackColor = false;
             this.BtnSave.Click += new System.EventHandler(this.button1_Click);
             // 
+            // LblLogin
+            // 
+            this.LblLogin.AutoSize = true;
+            this.LblLogin.BackColor = System.Drawing.Color.Transparent;
+            this.LblLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LblLogin.Font = new System.Drawing.Font("Cooper Black", 28.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLogin.ForeColor = System.Drawing.Color.CadetBlue;
+            this.LblLogin.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.LblLogin.Location = new System.Drawing.Point(282, 20);
+            this.LblLogin.Name = "LblLogin";
+            this.LblLogin.Size = new System.Drawing.Size(307, 55);
+            this.LblLogin.TabIndex = 49;
+            this.LblLogin.Text = "ADD DATA";
+            // 
             // AddBaby
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(203)))), ((int)(((byte)(215)))));
             this.ClientSize = new System.Drawing.Size(828, 543);
+            this.Controls.Add(this.LblLogin);
             this.Controls.Add(this.BtnBack);
             this.Controls.Add(this.CbxGender);
             this.Controls.Add(this.label6);
@@ -255,5 +271,6 @@
         private System.Windows.Forms.Label LblID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TbxFirstName;
+        private System.Windows.Forms.Label LblLogin;
     }
 }

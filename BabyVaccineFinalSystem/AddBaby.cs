@@ -25,41 +25,47 @@ namespace BabyVaccineFinalSystem
             string lastName = TbxLastName.Text;
             string gender = CbxGender.Text;
             DateTime birth = DtpBirth.Value;
-            if (firstName == "" || midName == ""|| lastName == "" || gender == "")
+            if (firstName == "" || midName == "" || lastName == "" || gender == "")
             {
                 MessageBox.Show("Please fill blank information!");
             }
             else
             {
-                MySqlCommand cmd1 = new MySqlCommand("INSERT INTO baby_info (id, first_name, middle_name, last_name, gender, birthdate) VALUES (@id, @firstName, @midName, @lastName, @gender, @birth)", Info.cnn);
-                Info.cnn.Open();
-                cmd1.Parameters.AddWithValue("@id", id);
-                cmd1.Parameters.AddWithValue("@firstName", firstName);
-                cmd1.Parameters.AddWithValue("@midName", midName);
-                cmd1.Parameters.AddWithValue("@lastName", lastName);
-                cmd1.Parameters.AddWithValue("@gender", gender);
-                cmd1.Parameters.AddWithValue("@birth", birth);
-
-                MySqlCommand cmd2 = new MySqlCommand("CREATE TABLE Baby_" + id + " (vac_no INT PRIMARY KEY, vac_name VARCHAR(100) NOT NULL, dose INT NOT NULL, Dose_1_date_injected Varchar(50) not null, Dose_2_date_injected Varchar(50) not null, Dose_3_date_injected Varchar(50) not null);", Info.cnn);
-                cmd1.ExecuteNonQuery();
-                cmd2.ExecuteNonQuery();
-                MessageBox.Show("Successfully saved");
-                Info.cnn.Close();
-                Viewbaby vb = new Viewbaby();
-                this.Hide();
-                vb.Show();
-                try
+                DialogResult result = MessageBox.Show("Are you want sure you want to Add this data? ", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
                 {
-
-                    MySqlCommand cmd3 = new MySqlCommand("INSERT INTO Baby_" + int.Parse(LblID.Text) + " (vac_no, vac_name, dose, Dose_1_date_injected, Dose_2_date_injected, Dose_3_date_injected) VALUES (1, 'BCG', 1,'Not_yet','N/A','N/A'), (2, 'Hepatitis_B', 1,'Not_yet','N/A','N/A'), (3, 'Pentavalent', 3,'Not_yet','Not_yet','Not_yet'), (4, 'Oral_Polio', 3,'Not_yet','Not_yet','Not_yet'), (5, 'Pneumococcal_Conjugate', 3,'Not_yet','Not_yet','Not_yet'), (6, 'Inactive_Polio', 1,'Not_yet','N/A','N/A'), (7, 'MMR', 2,'Not_yet','Not_yet','N/A')", Info.cnn);
+                    MySqlCommand cmd1 = new MySqlCommand("INSERT INTO baby_info (id, first_name, middle_name, last_name, gender, birthdate) VALUES (@id, @firstName, @midName, @lastName, @gender, @birth)", Info.cnn);
                     Info.cnn.Open();
-                    cmd3.ExecuteNonQuery();
-                    Info.cnn.Close();
+                    cmd1.Parameters.AddWithValue("@id", id);
+                    cmd1.Parameters.AddWithValue("@firstName", firstName);
+                    cmd1.Parameters.AddWithValue("@midName", midName);
+                    cmd1.Parameters.AddWithValue("@lastName", lastName);
+                    cmd1.Parameters.AddWithValue("@gender", gender);
+                    cmd1.Parameters.AddWithValue("@birth", birth);
 
+                    MySqlCommand cmd2 = new MySqlCommand("CREATE TABLE Baby_" + id + " (vac_no INT PRIMARY KEY, vac_name VARCHAR(100) NOT NULL, dose INT NOT NULL, Dose_1_date_injected Varchar(50) not null, Dose_2_date_injected Varchar(50) not null, Dose_3_date_injected Varchar(50) not null);", Info.cnn);
+                    cmd1.ExecuteNonQuery();
+                    cmd2.ExecuteNonQuery();
+                    MessageBox.Show("Successfully saved");
+                    Info.cnn.Close();
+                    Viewbaby vb = new Viewbaby();
+                    this.Hide();
+                    vb.Show();
+                    try
+                    {
+
+                        MySqlCommand cmd3 = new MySqlCommand("INSERT INTO Baby_" + int.Parse(LblID.Text) + " (vac_no, vac_name, dose, Dose_1_date_injected, Dose_2_date_injected, Dose_3_date_injected) VALUES (1, 'BCG', 1,'Not_yet','N/A','N/A'), (2, 'Hepatitis_B', 1,'Not_yet','N/A','N/A'), (3, 'Pentavalent', 3,'Not_yet','Not_yet','Not_yet'), (4, 'Oral_Polio', 3,'Not_yet','Not_yet','Not_yet'), (5, 'Pneumococcal_Conjugate', 3,'Not_yet','Not_yet','Not_yet'), (6, 'Inactive_Polio', 1,'Not_yet','N/A','N/A'), (7, 'MMR', 2,'Not_yet','Not_yet','N/A')", Info.cnn);
+                        Info.cnn.Open();
+                        cmd3.ExecuteNonQuery();
+                        Info.cnn.Close();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
+                else {
                 }
             }
             

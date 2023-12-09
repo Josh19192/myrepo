@@ -43,6 +43,7 @@
             this.BtnBack = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.BtnUpdate = new System.Windows.Forms.Button();
+            this.LblLogin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CbxGender
@@ -223,12 +224,27 @@
             this.BtnUpdate.UseVisualStyleBackColor = false;
             this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
+            // LblLogin
+            // 
+            this.LblLogin.AutoSize = true;
+            this.LblLogin.BackColor = System.Drawing.Color.Transparent;
+            this.LblLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LblLogin.Font = new System.Drawing.Font("Cooper Black", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLogin.ForeColor = System.Drawing.Color.CadetBlue;
+            this.LblLogin.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.LblLogin.Location = new System.Drawing.Point(321, 28);
+            this.LblLogin.Name = "LblLogin";
+            this.LblLogin.Size = new System.Drawing.Size(265, 50);
+            this.LblLogin.TabIndex = 49;
+            this.LblLogin.Text = "EDIT INFO";
+            // 
             // EditProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(203)))), ((int)(((byte)(215)))));
             this.ClientSize = new System.Drawing.Size(832, 593);
+            this.Controls.Add(this.LblLogin);
             this.Controls.Add(this.BtnBack);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.CbxGender);
@@ -270,5 +286,6 @@
         private System.Windows.Forms.Label LblID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TbxFirstName;
+        private System.Windows.Forms.Label LblLogin;
     }
 }
