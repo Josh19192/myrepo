@@ -18,10 +18,10 @@ namespace BabyVaccineFinalSystem
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM user_login WHERE user = @user AND password = @password", Info.cnn);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM user_login WHERE user = @user AND password = SHA2(@password,256)", Info.cnn);
             Info.cnn.Open();
             cmd.Parameters.AddWithValue("@user", TbxUser.Text);
-            cmd.Parameters.AddWithValue("@password", TbxPass.Text);
+            cmd.Parameters.AddWithValue("@password",TbxPass.Text );
             MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
@@ -82,6 +82,22 @@ namespace BabyVaccineFinalSystem
 
         private void UserLogin_Load(object sender, EventArgs e)
         {
+            MySqlCommand cmdd2 = new MySqlCommand("SELECT count(*) from user_login;", Info.cnn);
+            Info.cnn.Open();
+            long rowCount = (long)cmdd2.ExecuteScalar();
+            
+            if (rowCount == 0)
+            {
+                MySqlCommand cmd1 = new MySqlCommand("INSERT INTO user_login(user, password) VALUES('admin',SHA2('admin123',256))", Info.cnn);
+                cmd1.ExecuteNonQuery();
+                Info.cnn.Close();
+
+            }
+            else
+            {
+                Info.cnn.Close();
+            }
+
             TbxUser.ForeColor = Color.Gray;
             TbxPass.ForeColor = Color.Gray;
         }
