@@ -64,8 +64,8 @@ namespace BabyVaccineFinalSystem
             object v3 = DgvInjectInfo.Rows[2].Cells[4].Value;
             object v4 = DgvInjectInfo.Rows[2].Cells[5].Value;
 
-            object v5 = DgvInjectInfo.Rows[5].Cells[3].Value;
-            object v6 = DgvInjectInfo.Rows[6].Cells[3].Value;
+            object v5 = DgvInjectInfo.Rows[6].Cells[3].Value;
+            object v6 = DgvInjectInfo.Rows[6].Cells[4].Value;
 
             string w1 = v1.ToString();
             string w2 = v2.ToString();

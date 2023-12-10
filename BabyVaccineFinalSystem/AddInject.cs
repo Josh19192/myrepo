@@ -25,12 +25,56 @@ namespace BabyVaccineFinalSystem
                 dtpAtBirth.Value = DateTime.Parse(w1);
                 CbxBirth.Text = w1;
             }
-            CbxOneAndHalf.Text = w2;
-            CbxTwoAndHalf.Text = w3;
-            CbxThreeAndHalf.Text = w4;
-            CbxNineMonth.Text = w5;
-            CbxOneYear.Text = w6;
-            
+
+            if (w2 == "Not_yet")
+            {
+                CbxOneAndHalf.Text = w2;
+            }
+            else
+            {
+                dtpOneAndHalf.Value = DateTime.Parse(w2);
+                CbxOneAndHalf.Text = w2;
+            }
+
+            if (w3 == "Not_yet")
+            {
+                CbxTwoAndHalf.Text = w3;
+            }
+            else
+            {
+                dtpTwoAndHalf.Value = DateTime.Parse(w3);
+                CbxTwoAndHalf.Text = w3;
+            }
+
+            if (w4 == "Not_yet")
+            {
+                CbxThreeAndHalf.Text = w4;
+            }
+            else
+            {
+                dtpThreeAndHalf.Value = DateTime.Parse(w4);
+                CbxThreeAndHalf.Text = w4;
+            }
+
+            if (w5 == "Not_yet")
+            {
+                CbxNineMonth.Text = w5;
+            }
+            else
+            {
+                dtpNineMonth.Value = DateTime.Parse(w5);
+                CbxNineMonth.Text = w5;
+            }
+
+            if (w6 == "Not_yet")
+            {
+                CbxOneYear.Text = w6;
+            }
+            else
+            {
+                dtpOneYear.Value = DateTime.Parse(w6);
+                CbxOneYear.Text = w6;
+            }
         }
         
 
