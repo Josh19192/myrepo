@@ -82,8 +82,10 @@ namespace BabyVaccineFinalSystem
 
         private void UserLogin_Load(object sender, EventArgs e)
         {
-            MySqlCommand cmdd2 = new MySqlCommand("SELECT count(*) from user_login;", Info.cnn);
+            MySqlCommand cmd3 = new MySqlCommand("CREATE TABLE IF NOT EXISTS user_login (user varchar(100), password varchar(100))", Info.cnn);
             Info.cnn.Open();
+            cmd3.ExecuteNonQuery();
+            MySqlCommand cmdd2 = new MySqlCommand("SELECT count(*) from user_login;", Info.cnn);
             long rowCount = (long)cmdd2.ExecuteScalar();
             
             if (rowCount == 0)

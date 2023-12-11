@@ -98,7 +98,7 @@ namespace BabyVaccineFinalSystem
             {
                 try
                 {
-                    MySqlCommand cmd = new MySqlCommand("SELECT * FROM baby_info where id like '%" + TbxSearch.Text + "%' or first_name like '%" + TbxSearch.Text + "%' or last_name like '%" + TbxSearch.Text + "%' or middle_name like '%" + TbxSearch.Text + "%' or gender like '%" + TbxSearch.Text + "%' or birthdate like '%" + TbxSearch.Text + "%'", Info.cnn);
+                    MySqlCommand cmd = new MySqlCommand("SELECT * FROM baby_info where id like '%" + TbxSearch.Text + "%' or first_name like '%" + TbxSearch.Text + "%' or last_name like '%" + TbxSearch.Text + "%' or middle_name like '%" + TbxSearch.Text + "%' or gender like '%" + TbxSearch.Text + "%'", Info.cnn);
                     MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                     DataTable dataTable = new DataTable();
                     try
